@@ -10,6 +10,11 @@ logstash:
                 path:
                         - "/var/log/syslog"
                         - "/var/log/messages"
+
+            gps:
+                enabled: true
+                path:
+                        - "/tmp/gps"
             nginx_access:
                 enabled: true
                 path:
